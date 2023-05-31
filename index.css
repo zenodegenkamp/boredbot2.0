@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: black;
+    color: whitesmoke;
+}
+
+/* TYPOGRAPHY */
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+.highlight {
+    color: #33437c; 
+    font-weight: bolder;
+    border-bottom: 1px solid;
+}
+
+
+/* Container */
+
+.container {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#result {
+    border: 1px solid grey;
+    max-height: 2em;
+    width: 330px;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+#share-text{
+    margin-top: 2em;
+}
+
+/* BTN SECTION */
+button {
+    width: 178px;
+    background-color: #33437c;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em 1.5em;
+    cursor: pointer;
+}
+
+#share-btn {
+    background-color: whitesmoke;
+    color: #33437c;
+}
+
+@media (min-width: 600px){
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 40%;
+    }
+    
+}
+
